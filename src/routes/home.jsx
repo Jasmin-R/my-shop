@@ -4,7 +4,7 @@ import Directory from "../components/directory/directory.component";
 import categories from "../data/categories";
 
 
-const Home = () => {
+const Home = (categoryItem) => {
     return (
         <div>
            <Outlet/>
@@ -13,5 +13,5 @@ const Home = () => {
          
     )
 }
-
+ 
 export default Home;
